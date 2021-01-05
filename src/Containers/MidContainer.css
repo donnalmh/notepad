@@ -1,0 +1,45 @@
+.body-content{
+    margin-top:54px;
+    overflow-y: hidden;
+}
+
+.list {
+    background-color: #679D9E;
+    opacity: 63%;
+    border-color: #B0B0B9;
+    color: #FEFEFE;
+
+}
+
+.line-break {
+    background-color: #868787;
+    color: #868787;
+}
+
+.left-scrollable {
+    position: absolute;
+    top: 54px;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    width: 215px;
+}
+
+.right-scrollable {
+    position: absolute;
+    top: 54px;
+    bottom: 0;
+    right: 0;
+    left: 215px;
+    overflow-y: scroll;
+    /* width: 80%; */
+}
+
+.p-1 {
+    padding: 10px !important;
+}
+
+.p-2 {
+    padding: 20px !important;
+}
+
