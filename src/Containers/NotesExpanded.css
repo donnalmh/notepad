@@ -1,0 +1,40 @@
+#note-border {
+    border: 1px solid #DDDDDD;
+    height: 100vh;
+}
+
+#note-date {
+   color: #747874!important;
+   font-size: 17px;
+}
+
+.title {
+    color: #7B8D93;
+}
+
+.notes-detail {
+    color: #888;
+}
+
+input {
+    border: none;
+    font-size:40px!important;
+    color: #7B8D93;
+}
+
+input:focus { 
+    outline: none !important;
+}
+
+textarea {
+    color: #3D3D3D;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    border: none;
+    resize: vertical;
+}
+
+textarea:focus { 
+    outline: none !important;
+}
