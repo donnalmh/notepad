@@ -4,12 +4,13 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import NotesExpanded from './NotesExpanded';
 import NoteListItem from './NoteListItem'
+import { data } from './data.js'
 
-let items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+let items = data;
 let itemList = items.map((item, index) =>
     (
         <span key={index}>
-            <NoteListItem></NoteListItem>
+            <NoteListItem title={item.title} summary={item.summary} date={item.date}></NoteListItem>
             <hr className="line-break  mt-3 mb-2" />
         </span>
     )
