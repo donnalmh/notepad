@@ -1,37 +1,38 @@
+
 export const data = [
     {
         title: 'Reflections 2020',
         summary: "Quam viverra orci sagittis eu volutpat. Cras tincidunt lobortis feugiat vivamus at augue. Nunc consequat interdum varius sit. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Molestie a iaculis at erat pellentesque adipiscing commodo. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sed elementum tempus egestas sed sed risus pretium. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nulla porttitor massa id neque aliquam vestibulum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et netus et malesuada fames ac turpis egestas. Commodo ullamcorper a lacus vestibulum sed. Nec dui nunc mattis enim ut tellus elementum. Convallis aenean et tortor at risus viverra adipiscing at in. Purus faucibus ornare suspendisse sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
-        date: "28/09/2020 12:00:00"
+        date: 'Mon Jan 18 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     },
     {
         title: 'Plans for 2021',
         summary: "Tristique senectus et netus et malesuada fames. Euismod nisi porta lorem mollis. Convallis posuere morbi leo urna molestie at. Viverra maecenas accumsan lacus vel. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Amet justo donec enim diam vulputate ut pharetra sit. Gravida cum sociis natoque penatibus. Donec ac odio tempor orci. Nunc sed augue lacus viverra vitae congue eu consequat. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Et ultrices neque ornare aenean euismod. Commodo sed egestas egestas fringilla. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices.",
-        date: "11/09/2020 12:00:00"
+        date: 'Mon Jan 11 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     },
     {
         title: 'Cake Secret Recipes',
         summary: "Quam viverra orci sagittis eu volutpat. Cras tincidunt lobortis feugiat vivamus at augue. Nunc consequat interdum varius sit. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Molestie a iaculis at erat pellentesque adipiscing commodo. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sed elementum tempus egestas sed sed risus pretium. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nulla porttitor massa id neque aliquam vestibulum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et netus et malesuada fames ac turpis egestas. Commodo ullamcorper a lacus vestibulum sed. Nec dui nunc mattis enim ut tellus elementum. Convallis aenean et tortor at risus viverra adipiscing at in. Purus faucibus ornare suspendisse sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
-        date: "01/09/2020 12:00:00"
+        date: 'Mon Jan 18 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     },
     {
         title: 'Chinese Spices',
         summary: "Quam viverra orci sagittis eu volutpat. Cras tincidunt lobortis feugiat vivamus at augue. Nunc consequat interdum varius sit. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Molestie a iaculis at erat pellentesque adipiscing commodo. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sed elementum tempus egestas sed sed risus pretium. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nulla porttitor massa id neque aliquam vestibulum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et netus et malesuada fames ac turpis egestas. Commodo ullamcorper a lacus vestibulum sed. Nec dui nunc mattis enim ut tellus elementum. Convallis aenean et tortor at risus viverra adipiscing at in. Purus faucibus ornare suspendisse sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
-        date: "02/07/2020 12:00:00"
+        date: 'Mon Jan 18 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     },
     {
         title: 'Worship Leading List',
         summary: "Quam viverra orci sagittis eu volutpat. Cras tincidunt lobortis feugiat vivamus at augue. Nunc consequat interdum varius sit. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Molestie a iaculis at erat pellentesque adipiscing commodo. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sed elementum tempus egestas sed sed risus pretium. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nulla porttitor massa id neque aliquam vestibulum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et netus et malesuada fames ac turpis egestas. Commodo ullamcorper a lacus vestibulum sed. Nec dui nunc mattis enim ut tellus elementum. Convallis aenean et tortor at risus viverra adipiscing at in. Purus faucibus ornare suspendisse sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
-        date: "02/01/2020 12:00:00"
+        date: 'Mon Jan 18 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     },
     {
         title: 'Crazy YouTubers of 2021',
         summary: "Quam viverra orci sagittis eu volutpat. Cras tincidunt lobortis feugiat vivamus at augue. Nunc consequat interdum varius sit. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Molestie a iaculis at erat pellentesque adipiscing commodo. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sed elementum tempus egestas sed sed risus pretium. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nulla porttitor massa id neque aliquam vestibulum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et netus et malesuada fames ac turpis egestas. Commodo ullamcorper a lacus vestibulum sed. Nec dui nunc mattis enim ut tellus elementum. Convallis aenean et tortor at risus viverra adipiscing at in. Purus faucibus ornare suspendisse sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
-        date: "01/01/2020 12:00:00"
+        date: 'Mon Jan 18 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     },
     {
         title: 'To-do List Pending',
         summary: "Quam viverra orci sagittis eu volutpat. Cras tincidunt lobortis feugiat vivamus at augue. Nunc consequat interdum varius sit. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Molestie a iaculis at erat pellentesque adipiscing commodo. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sed elementum tempus egestas sed sed risus pretium. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nulla porttitor massa id neque aliquam vestibulum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et netus et malesuada fames ac turpis egestas. Commodo ullamcorper a lacus vestibulum sed. Nec dui nunc mattis enim ut tellus elementum. Convallis aenean et tortor at risus viverra adipiscing at in. Purus faucibus ornare suspendisse sed. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
-        date: "28/09/2020 12:00:00"
+        date: 'Mon Jan 18 2021 10:22:57 GMT+0200 (South Africa Standard Time)'
     }
 ]

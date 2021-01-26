@@ -1,4 +1,5 @@
 import './NoteListItem.css'
+import Moment from 'react-moment';
 
 function NoteListItem({title, summary, date}) {
     return (
@@ -6,7 +7,7 @@ function NoteListItem({title, summary, date}) {
             <div id="title">{title}</div>
             <div id="summary">Lorem ipsum dolor sit amet, consectetur adipsling emali...</div>
             <br></br>
-            <div id="date">{date}</div>
+            <div id="date"><Moment format="DD-MM-YYYY">{date}</Moment></div>
          </div>
     );
 }

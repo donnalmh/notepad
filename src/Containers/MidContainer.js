@@ -1,34 +1,51 @@
 import './MidContainer.css'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import NotesExpanded from './NotesExpanded';
 import NoteListItem from './NoteListItem'
 import { data } from './data.js'
+import { useState } from 'react';
+
 
 let items = data;
-let itemList = items.map((item, index) =>
-    (
-        <span key={index}>
-            <NoteListItem title={item.title} summary={item.summary} date={item.date}></NoteListItem>
-            <hr className="line-break  mt-3 mb-2" />
-        </span>
-    )
+let itemList = (sayHello) => items.sort((a,b) => sortByDate(a,b)).reverse().map((item, index) =>
+    {
+        return (
+            <div key={index} onClick={() => sayHello(index)}>
+                <NoteListItem title={item.title} summary={item.summary} date={item.date}></NoteListItem>
+                <hr className="line-break  mt-3 mb-2" />
+            </div>
+        )
+    }
 )
 
-function MidContainer(){
+
+function sortByDate(a,b){
+    return new Date(a.date) - new Date(b.date)
+}
+
+function MidContainer(){ 
+    const [selectedNote, setSelectedNote] = useState(items[0])
+
+    function handleNoteClick(index){
+        setSelectedNote(items[index]);
+    }
+
     return (
         <div className="body-content">
             <Container fluid>
                 <div>
                     <div className="list p-2 pt-4 left-scrollable">
-                        {itemList}
+                        {itemList(handleNoteClick)}
                     </div>
                     <div className="p-2 right-scrollable">
-                        <NotesExpanded></NotesExpanded>
+                        <NotesExpanded 
+                            title={selectedNote.title} 
+                            summary={selectedNote.summary} 
+                            date={selectedNote.date}>
+                        </NotesExpanded>
                     </div>
                 </div>
-             </Container>
+            </Container>
         </div>
     );
 }
